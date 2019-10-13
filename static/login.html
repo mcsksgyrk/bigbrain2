@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Regisztráció</title>
+  <title>Login</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -31,9 +31,9 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav>    
 
-    <div class="form-gap"></div>
+<div class="form-gap"></div>
 <div class="container">
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4">
@@ -41,13 +41,9 @@
               <div class="panel-body">
                 <div class="text-center">
                   <div class="panel-body">
-    
-                    <form class="form-horizontal" action='' method = "POST">
-                        <fieldset>
-                          <div id="legend">
-                            <legend class="">Bejelentkezés</legend>  
-                          </div>
-                       
+                    <legend class="">Bejelentkezés</legend>
+                    <form class="register-horizontal" action='' method = "POST">
+                        <fieldset>                  
                           <div class="control-group">
                             <!-- E-mail -->
                             <label class="control-label" for="email">E-mail</label>
@@ -60,25 +56,19 @@
                             <!-- Password-->
                             <label class="control-label" for="password">Jelszó</label>
                             <div class="controls">
-                              <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                              <input type="password" id="password" name="password" placeholder="jelszó" class="input-xlarge">
                             </div>
                           </div>
-                      
-                          <div class="control-group">
-                              <!-- Password-->
-                              <label class="control-label" for="password">Jelszó megerősítés</label>
-                              <div class="controls">
-                                <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
-                              </div>
-                            </div>
                         
-                            <div class="control-group">
-                              <!-- Button -->
-                              <div class="controls">
-                                <a type="button" class="btn btn-primary" href="login.html">Register</a>
-                                <a href="login.html" class="login-btn" title="">Login</a>
-                            </div> 
-                        </fieldset>
+                          <div class="control-group">
+                            <!-- Button -->
+                            <div class="controls">
+                                <a type="button" class="btn btn-primary" href="index.html">Login</a>
+                                <a href="reg.html" class="login-btn" title="">Sign up</a>
+                            </div>
+                          </div>
+                        </fieldset> 
+                      </form>
     
                   </div>
                 </div>
